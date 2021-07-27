@@ -100,6 +100,7 @@ submit.addEventListener('click', () => {
         <h3>Score Obtained!! ${score}/${qus.length}</h3>
         <button class="btn" onclick="location.reload();">Start Again</button>
         `;
+         swal("Message!!!", "...Test Over!!!");
         showScore.classList.remove('scoreArea');
         document.getElementById("countdown").innerHTML = "";
     }
